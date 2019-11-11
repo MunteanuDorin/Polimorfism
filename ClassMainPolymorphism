@@ -1,0 +1,23 @@
+package com.company;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Copac artar = new Artar(15);
+        Copac stejar = new Stejar(17);
+        Copac nuc = new Nuc(12);
+
+        List<Copac> obiecte = new ArrayList<Copac>();
+        obiecte.add(artar);
+        obiecte.add(stejar);
+        obiecte.add(nuc);
+
+        for (Copac copac : copaci) {
+            System.out.println(copac.toString());
+            copac.fructe();   
+        }
+    }
+}
