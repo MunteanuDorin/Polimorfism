@@ -1,0 +1,26 @@
+package com.company;
+
+public class Stejar extends Copac {
+    private double inaltimeCopac;
+
+    public Dog(String numeCopac, String fructCopac, int varstaCopac, double inaltimeCopac) {
+        super(numeCopac, fructCopac, varstaCopac);
+        this.inaltimeCopac = inaltimeCopac;
+    }
+
+    public double getInaltimeCopac() {
+        return inaltimeCopac;
+    }
+
+    public void setInaltimeCopac(double inaltimeCopac) {
+        this.inaltimeCopac = inaltimeCopac;
+    }
+
+    @Override
+    public String toString() {
+        return "Copacul se numeste = " + numeCopac +
+                "\n Fructul lui este = " + fructCopac +
+                "\n Are varsta = " + varstaCopac +
+                "\n Inaltimea lui este = " + inaltimeaCopac + "\n";
+    }
+}
