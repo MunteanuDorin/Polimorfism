@@ -15,9 +15,5 @@ public class Main {
         obiecte.add(stejar);
         obiecte.add(nuc);
 
-        for (Copac copac : copaci) {
-            System.out.println(copac.toString());
-            copac.fructe();   
-        }
     }
 }
