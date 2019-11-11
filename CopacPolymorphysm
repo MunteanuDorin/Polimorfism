@@ -1,0 +1,40 @@
+package com.company;
+
+public abstract class Copac {
+    protected String numeCopac;
+    protected String fructCopac;
+    protected int varstaCopac;
+
+    public Copac(String numeCopac, String fructCopac, int varstaCopac) {
+        this.numeCopac = numeCopac;
+        this.fructCopac = fructCopac;
+        this.varstaCopac = varstaCopac;
+    }
+
+    public String getNumeCopacl() {
+        return numeCopac;
+    }
+
+    public void setNumeCopac(String numeCopac) {
+        this.numeCopac = numeCopac;
+    }
+
+    public String getFructCopac() {
+        return fructCopac;
+    }
+
+    public void setFructCopac(String fructCopac) {
+        this.fructCopac = fructCopac;
+    }
+
+    public int getVarstaCopac() {
+        return varstaCopac;
+    }
+
+    public void setVarstaCopac(int varstaCopac) {
+        this.varstaCopac = varstaCopac;
+    }
+
+    abstract public void voice();
+
+}
