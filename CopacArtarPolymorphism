@@ -1,0 +1,14 @@
+package com.company;
+
+public class Artar extends Copac {
+    public Artar(String numeCopac, String fructCopac, int varstaCopac) {
+        super(numeCopac, fructCopac, varstaCopac);
+    }    
+
+    @Override
+    public String toString() {
+        return "Numele copacului = " + numeCopac +
+                "\n Fructul copacului = " + fructCopac +
+                "\n Varsta copacului = " + carstaCopac + "\n";
+    }
+}
